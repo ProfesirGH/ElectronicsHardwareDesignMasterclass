@@ -1,0 +1,41 @@
+(footprint "MQ-135" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (descr "MQ-2, MQ-3, MQ5 family of gas sensors")
+  (tags "MQ")
+  (attr through_hole)
+  (fp_text reference "REF**" (at -0.03 -10.02) (layer "F.SilkS")
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp bf89c4f8-7450-4c01-aff9-bb94d778d6f3)
+  )
+  (fp_text value "MQ-135" (at -0.08 -0.17) (layer "F.Fab")
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 30c2fac5-87f9-4508-8c41-33d19cf0ee74)
+  )
+  (fp_circle (center 0.21 -0.31) (end 0.21 8.689999)
+    (stroke (width 0.2) (type solid)) (fill none) (layer "F.SilkS") (tstamp ea52ebb3-dfe3-467d-a968-5e27f2b27ea6))
+  (fp_circle (center 0.21 -0.31) (end 7.5 3.6)
+    (stroke (width 0.12) (type solid)) (fill none) (layer "F.SilkS") (tstamp 73a329d9-ef58-462e-9af7-b1b7947165a1))
+  (fp_circle (center 0.21 -0.31) (end 9.610133 -0.31)
+    (stroke (width 0.1) (type solid)) (fill none) (layer "F.CrtYd") (tstamp cac771c2-e830-49aa-838a-03d49889f367))
+  (pad "1" thru_hole circle (at -3.15 -3.67) (size 2 2) (drill 0.8) (layers "*.Cu" "*.Mask") (tstamp 77386447-1af0-43b5-9c3d-f5c979edbe05))
+  (pad "2" thru_hole circle (at -4.54 -0.31) (size 2 2) (drill 0.8) (layers "*.Cu" "*.Mask") (tstamp 7dbec40f-c586-4798-a381-6da39370b8a0))
+  (pad "3" thru_hole circle (at -3.16 3.04) (size 2 2) (drill 0.8) (layers "*.Cu" "*.Mask") (tstamp aa501a49-7adb-4919-a150-bfe11ecb2e76))
+  (pad "4" thru_hole circle (at 3.57 -3.67) (size 2 2) (drill 0.8) (layers "*.Cu" "*.Mask") (tstamp 165bd1bd-ef60-4302-b5f2-89409397a0ca))
+  (pad "5" thru_hole circle (at 4.96 -0.31) (size 2 2) (drill 0.8) (layers "*.Cu" "*.Mask") (tstamp c41aaae8-be15-4114-a042-b63b32dc2e93))
+  (pad "6" thru_hole circle (at 3.56 3.05) (size 2 2) (drill 0.8) (layers "*.Cu" "*.Mask") (tstamp 3181d99c-88d0-4b42-b5fb-b0c22e2618ec))
+  (group "" (id 67688c15-ac32-449c-a388-722735a42466)
+    (members
+      165bd1bd-ef60-4302-b5f2-89409397a0ca
+      3181d99c-88d0-4b42-b5fb-b0c22e2618ec
+      77386447-1af0-43b5-9c3d-f5c979edbe05
+      7dbec40f-c586-4798-a381-6da39370b8a0
+      aa501a49-7adb-4919-a150-bfe11ecb2e76
+      c41aaae8-be15-4114-a042-b63b32dc2e93
+    )
+  )
+  (model "${PROJECT_ENRYKA_3D_MODELS}/MQ-5.step"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 90))
+  )
+)
